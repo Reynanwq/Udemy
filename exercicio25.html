@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 25</title>
+</head>
+
+<body>
+    <script>
+        const name = prompt("Digite seu nome: ");
+        document.body.innerHTML += `Seu nome é <strong>${name}</strong><br>`;
+        document.body.innerHTML += `Seu nome tem <strong>${name.length}</strong> letras <br>`;
+        document.body.innerHTML += `A segunda letra do seu nome é:  <strong>${name[1]}</strong><br>`;
+        document.body.innerHTML += `As ultimas 3 letras do seu nome são: <strong>${name.slice(-3, name.length)}</strong><br>`;
+        document.body.innerHTML += `As ultimas palavras do seu nome são: <strong>${name.split(' ')}</strong><br>`;
+    </script>
+</body>
+
+</html>
