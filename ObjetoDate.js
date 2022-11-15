@@ -4,8 +4,8 @@ const date = new Date(0); //01/01/1970 ÉPOCA DO UNIX
 console.log(date.toString());
 
 //Exata data que estou executando
-const Nowdata = new Date();
-console.log(Nowdata.toString());
+const nowData = new Date();
+console.log(nowData.toString());
 
 //TODAS AS FUNCOES DO USO DATE
 const data = new Date('2022-11-15 16:10:43.100');
