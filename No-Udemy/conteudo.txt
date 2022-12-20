@@ -1,0 +1,43 @@
+Curso Javascript Completo 2020 [Iniciantes] + 14 Mini-Projetos:
+https://youtu.be/i6Oi-YtXnAU
+
+- Mini-Projeto 2
+- Mini-Projeto 3
+- Mini-Projeto 4
+- Mini-Projeto 5
+- Mini-Projeto 6
+- Mini-Projeto 7
+- Mini-Projeto 8
+- Mini-Projeto 9
+- Mini-Projeto 10
+
+
+Curso Javascript Completo (6 Horas):
+https://youtu.be/McKNP3g6VBA
+
+- JSON
+- Projeto Lista de Tarefas
+
+Curso de JavaScript:
+https://www.youtube.com/playlist?list=PLwXQLZ3FdTVF9Y0RbsuN54XYP7D0dZIlR
+
+- Curso de Javascript - #5 Sobre o BOM
+- Curso de Javascript - #6 Sobre o BOM (Parte 02)
+- Curso de Javascript - #9 DOM | querySelectorAll
+- Curso de Javascript - #11 DOM | createElement
+- Curso de Javascript - #13 DOM | childNodes
+- Curso de Javascript - #14 DOM | nodeName, nodeType, nodeValue
+- Curso de Javascript - #15 DOM | parentNode
+- Curso de Javascript - #16 DOM | getAttribute, setAttribute e removeAttribute
+
+
+Javascript: Curso de JS mais completo do YT
+https://www.youtube.com/playlist?list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp
+
+
+- Curso de JavaScript #10 - Hoisting (2020)
+- Curso de JavaScript #11 - map, filter e reduce (2020)
+- Curso de JavaScript #12 - Módulos (2020)
+- Curso de JavaScript #13 - Praticando (2020)
+- Promises em JavaScript: Tudo sobre! #1
+- Promises no JavaScript [PARTE 2]
