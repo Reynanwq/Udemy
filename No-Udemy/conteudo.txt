@@ -41,3 +41,57 @@ https://www.youtube.com/playlist?list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp
 - Curso de JavaScript #13 - Praticando (2020)
 - Promises em JavaScript: Tudo sobre! #1
 - Promises no JavaScript [PARTE 2]
+
+Curso de Javascript Completo GRÁTIS!
+https://www.youtube.com/playlist?list=PLBnXXDBNZQpJKH1Fx2EAbKbG9p_dV_pKW
+
+- 20. Curso grátis de Javascript | Eventos | onload
+- 21. Curso grátis de Javascript | Eventos | Click    
+- 22. Curso grátis de Javascript | Eventos | Hover
+- 23. Curso grátis de Javascript | Eventos | Change
+- 24. Curso grátis de Javascript | Eventos | Blur
+- 25. Curso grátis de Javascript | Eventos | Keyup
+- 26. Curso grátis de Javascript | Eventos | Keypress
+- 27. Curso grátis de Javascript | Eventos | Submit
+- 28. Curso grátis de Javascript | O que é jQuery?
+
+
+Curso de JavaScript (Universidade XTI)
+https://www.youtube.com/playlist?list=PLxQNfKs8YwvEk85FbeXxDnFecAntIQdRf
+
+- Universidade XTI - JavaScript - 14 - Operadores Cálculo de IMC
+
+
+Curso de Javascript Puro Orientado a Objetos
+https://www.youtube.com/playlist?list=PLGwqoftZstLZUQGt3GeLpI-QAZaT8ccVG
+
+- Programação Orientada a Objetos no Javascript na Prática - Curso de Javascript Puro - Aula 1
+- Tela Front-End do Zero Com HTML, CSS e JS - Curso de Javascript Puro Orientado a Objetos - Aula 2
+- Como Adicionar e Manipular Objetos no Array - Curso de Javascript Puro Orientado a Objetos - Aula 3
+- Como Listar Dados do Array em Tabela HTML - Curso de Javascript Puro Orientado a Objetos - Aula 4
+- Como Remover Elementos e Objetos do Array - Curso de Javascript Puro Orientado a Objetos Aula 5
+- Como Editar Itens do Array e Exibir no HTML Com JSON - Curso de Javascript Puro Orientado a Objetos
+
+Mini projetos javascript para iniciantes
+https://www.youtube.com/playlist?list=PLDgemkIT111AzoS1rB61sgMJbsEA4pyD2
+
+- Mini projetos javascript (Iniciantes) - 01 LÂMPADA
+- Solução desafio da lâmpada
+- Mini projetos javascript (Iniciantes) - 02 Semáforo
+- Mini projetos javascript (Iniciantes) - 03 SLIDESHOW
+- Mini projetos javascript (iniciantes) - 04 DRUMKIT
+- Mini projetos javascript (iniciantes) - 05 COUNTDOWN
+- Mini projetos javascript (Iniciantes) - 07 todo-list
+- Mini projetos javascript (Iniciantes) - 08 CRUD Completo
+
+Projetos JavaScript
+https://www.youtube.com/playlist?list=PLJ8PYFcmwFOxmqYNlo_H8TYVSDLxB8HdR
+
+- Projetos Javascript #01 - Criando um Relógio Digital com Javascript
+Projetos Javascript #02 - PARTE 1 Criando um player de música
+Projetos Javascript #02 - PARTE 2 Criando um player de música
+Soundboard do RATINHO - Projetos Javascript #03
+Como obter a LOCALIZAÇÃO de um usuário com JAVASCRIPT
+Como criar um MAPA com JAVASCRIPT | LEAFLET 
+Como utilizar a CÂMERA e tirar uma FOTO com JAVASCRIPT
+Como gerar um QR CODE com JAVASCRIPT | Google Charts API
