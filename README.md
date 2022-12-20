@@ -14,3 +14,13 @@
 <li>Model</li>
 <li>objetos</li>
 </article>
+
+## Technologies Used:
+
+<table>
+  <tr>
+    <td>JavaScript</td>
+    <td>HTML</td>
+    <td>CSS</td>
+  </tr>
+</table>
