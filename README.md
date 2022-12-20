@@ -22,5 +22,8 @@
     <td>JavaScript</td>
     <td>HTML</td>
     <td>CSS</td>
+    <td>NodeJS</td>
+    <td>git</td>
+    <td>TypesScript<td>
   </tr>
 </table>
