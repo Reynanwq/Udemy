@@ -38,6 +38,14 @@ function insert_aux(chave, dado, no = this.raiz) {
     return this.rebalanceamento(no);
 }
 
+function altura(no) {
+    return no == null ? -1 : no.altura;
+}
+
+function atualizaAltura(no) {
+
+}
+
 function fator_balanceamento() {
     if (no !== null) {
         return (this.altura(no.direita) - this.altura(no.esquerda));
