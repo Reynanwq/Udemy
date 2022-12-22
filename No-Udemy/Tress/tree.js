@@ -43,7 +43,8 @@ function altura(no) {
 }
 
 function atualizaAltura(no) {
-
+    //math.max: retorna o maior entre 2 números
+    no.altura = 1 + Math.max(this.altura(no.esquerda), this.altura(no.direita));
 }
 
 function fator_balanceamento() {
