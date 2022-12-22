@@ -47,7 +47,7 @@ function atualizaAltura(no) {
     no.altura = 1 + Math.max(this.altura(no.esquerda), this.altura(no.direita));
 }
 
-function fator_balanceamento() {
+function fator_balanceamento(no) {
     if (no !== null) {
         return (this.altura(no.direita) - this.altura(no.esquerda));
     } else {
@@ -60,8 +60,19 @@ function rebalanceamento(no) {
     if (no === null) {
         return no;
     }
-    if (this.fa) {
-
+    if (this.fator_balanceamento(no) < -1) {
+        if (this.altura(no.esquerda.esquerda) >= this.altura(no.esquerda.direita)) {
+            no = this.rotacaoDireita(no);
+        } else {
+            no = this.rotacaoEsquerdaDireita(no);
+        }
+    } else if (this.fator_balanceamento(no) > 1) {
+        if (this.altura(no.direita.direita) >= this.altura(no.direita.esquerda)) {
+            no = this.rotacaoEsquerda(no);
+        } else {
+            no = this.rotacaoDireitaEsquerda(no);
+        }
     }
-
+    this.atualizaAltura(no);
+    return no;
 }
