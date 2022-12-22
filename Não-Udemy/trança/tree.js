@@ -60,7 +60,8 @@ function rotacaoEsquerda(no) {
 
 //ROTAÇÃO DIREITA E ESQUERDA
 function rotacaoDireitaEsquerda(no) {
-
+ no.esquerda = this.rotacaoEsquerda(no.esquerda);
+ return this.rotacaoDireita(no);
 }
 
 //ROTAÇÃO ESQUERDA E DIREITA
