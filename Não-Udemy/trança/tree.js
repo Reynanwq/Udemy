@@ -50,7 +50,12 @@ function rotacaoDireita(no) {
 
 //ROTAÇÃO ESQUERDA
 function rotacaoEsquerda(no) {
-
+ let rotacionando = no.direita;
+ no.direita = rotacionando.esquerda;
+ rotacionando.esquerda = no;
+ this.atualiza_Altura(no);
+ this.atualiza_Altura(rotacionando);
+ return rotacionando;
 }
 
 //ROTAÇÃO DIREITA E ESQUERDA
