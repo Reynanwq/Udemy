@@ -38,7 +38,29 @@ function insert_aux(chave, dado, no = this.raiz) {
     return this.rebalanceamento(no);
 }
 
+//ROTAÇÃO DIREITA
+function rotacaoDireita(no) {
+
+}
+
+//ROTAÇÃO ESQUERDA
+function rotacaoEsquerda(no) {
+
+}
+
+//ROTAÇÃO DIREITA E ESQUERDA
+function rotacaoDireitaEsquerda(no) {
+
+}
+
+//ROTAÇÃO ESQUERDA E DIREITA
+function rotacaoEsquerdaDireita(no) {
+
+}
+
+
 function altura(no) {
+    //se o NÓ for nulo, ele tem altura -1   
     return no == null ? -1 : no.altura;
 }
 
