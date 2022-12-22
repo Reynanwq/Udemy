@@ -40,7 +40,12 @@ function insert_aux(chave, dado, no = this.raiz) {
 
 //ROTAÇÃO DIREITA
 function rotacaoDireita(no) {
-
+ let rotacionando = no.esquerda;
+ no.esquerda = rotacionando.direita;
+ rotacionando.direita = no;
+ this.atualiza_Altura(no);
+ this.atualiza_Altura(rotacionando);
+ return rotacionando;
 }
 
 //ROTAÇÃO ESQUERDA
