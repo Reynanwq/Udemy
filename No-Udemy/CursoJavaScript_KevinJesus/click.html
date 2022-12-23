@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Click</title>
+</head>
+
+<body>
+    <h1>Button</h1>
+    <button id="btn">My button</button>
+    <script>
+        //ESTUTURA: ELEMENTO.ADICIONA EVENTO('NOME DO EVENTE', FUNCCAO QUE EXECUTA APÓS O EVENTO)
+        let botao = document.getElementById('btn');
+        botao.addEventListener('click', function() {
+            alert("O botão está funcionando");
+        })
+    </script>
+</body>
+
+</html>
