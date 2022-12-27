@@ -24,6 +24,13 @@ function limpaInput() {
     inputTarefa.focus();
 }
 
+function criaBotaoApagar(li) {
+    li.innerHTML += ' ';
+    const botaoApagar = document.createElement('button');
+    botaoApagar.innerText = "Delete";
+    li.appendChild(botaoApagar);
+}
+
 //keypress -> quando umma tecla for pressionada (EVENTO)
 //keyup -> quando umma tecla for pressionada e solta (EVENTO)
 function criarTarera(textoInput) {
@@ -35,6 +42,7 @@ function criarTarera(textoInput) {
     li é o filho, ou seja, nó adicionado como filho*/
     tarefa.appendChild(li);
     limpaInput();
+    criaBotaoApagar(li);
 }
 
 btnTarefa.addEventListener('click', function() {
