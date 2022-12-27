@@ -56,12 +56,3 @@ form button{
 form button:hover{
     background: var(--primary-color-darker);
 }
-
-.timer{
-    font-size: 3em;
-}
-
-//para mudar a cor para red
-.pausado{
-    color: red;
-}
