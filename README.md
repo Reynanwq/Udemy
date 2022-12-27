@@ -24,6 +24,6 @@
     <td>CSS</td>
     <td>NodeJS</td>
     <td>git</td>
-    <td>TypesScript<td>
+    <td>TypeScript<td>
   </tr>
 </table>
