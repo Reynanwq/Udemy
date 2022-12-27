@@ -3,9 +3,30 @@ const inputTarefa = document.querySelector('.input-nova-tarefa');
 const btnTarefa = document.querySelector('.btn-add-tarefa');
 const tarefa = document.querySelector('.tarefa');
 
+function criali() {
+    //creatElemente -> cria um objeto se o nome dado não for conhecido
+    const li = document.createElement('li');
+    return li;
+}
+
+inputTarefa.addEventListener('keypress', function(e) {
+    //ENTER representa o valor 13
+    if (e.keyCode === 13) {
+        if (!inputTarefa.value) return;
+        criarTarera(inputTarefa.value);
+    }
+})
+
+//keypress -> quando umma tecla for pressionada (EVENTO)
+//keyup -> quando umma tecla for pressionada e solta (EVENTO)
 function criarTarera(textoInput) {
     //exibir o que foi digitado no input text 
-    console.log(textoInput);
+    const li = criali();
+    li.innerHTML = textoInput;
+    /*Relacionado com árvores:
+    Tarefa é o pai
+    li é o filho, ou seja, nó adicionado como filho*/
+    tarefa.appendChild(li);
 }
 
 btnTarefa.addEventListener('click', function() {
