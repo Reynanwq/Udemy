@@ -17,6 +17,13 @@ inputTarefa.addEventListener('keypress', function(e) {
     }
 })
 
+function limpaInput() {
+    //reseta ao apertar ENTER
+    inputTarefa.value = '';
+    //.focus -> ao clicar, sinalizar que focou.
+    inputTarefa.focus();
+}
+
 //keypress -> quando umma tecla for pressionada (EVENTO)
 //keyup -> quando umma tecla for pressionada e solta (EVENTO)
 function criarTarera(textoInput) {
@@ -27,6 +34,7 @@ function criarTarera(textoInput) {
     Tarefa é o pai
     li é o filho, ou seja, nó adicionado como filho*/
     tarefa.appendChild(li);
+    limpaInput();
 }
 
 btnTarefa.addEventListener('click', function() {
