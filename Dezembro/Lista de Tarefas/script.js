@@ -28,6 +28,8 @@ function criaBotaoApagar(li) {
     li.innerHTML += ' ';
     const botaoApagar = document.createElement('button');
     botaoApagar.innerText = "Delete";
+    botaoApagar.setAttribute('class', 'apagar');
+    botaoApagar.setAttribute('title', 'apagar esta tarefa');
     li.appendChild(botaoApagar);
 }
 
@@ -49,3 +51,10 @@ btnTarefa.addEventListener('click', function() {
     if (!inputTarefa.value) return;
     criarTarera(inputTarefa.value);
 });
+
+document.addEventListener('click', function(e) {
+    const el = e.target;
+    if (el.classList.contains('apagar')) {
+        el.parentElement.remove();
+    }
+})
