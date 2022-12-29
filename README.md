@@ -7,12 +7,8 @@
 <li>Dezembro</li>
 <li>Novembro</li>
 <li>No-Udemy</li>
-<li>aula12</li>
-<li>aula21</li>
 <li>Code Forces</li>
-<li>Exercicio34</li>
 <li>Model</li>
-<li>objetos</li>
 <li>Section 4 - Funcoes</li>
 </article>
 
