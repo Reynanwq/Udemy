@@ -12,7 +12,7 @@
 <li>Section 4 - Funcoes</li>
 </article>
 
-## Technologies Used:
+## 🛠 Technologies Used:
 
 <table>
   <tr>
@@ -24,3 +24,7 @@
     <td>TypeScript<td>
   </tr>
 </table>
+
+
+## 🤓 Contato 
+Reynanwq@gmail.com
