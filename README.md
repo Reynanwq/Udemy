@@ -13,6 +13,7 @@
 <li>Exercicio34</li>
 <li>Model</li>
 <li>objetos</li>
+<li>Section 4 - Funcoes</li>
 </article>
 
 ## Technologies Used:
