@@ -95,3 +95,10 @@ Como obter a LOCALIZAÇÃO de um usuário com JAVASCRIPT
 Como criar um MAPA com JAVASCRIPT | LEAFLET 
 Como utilizar a CÂMERA e tirar uma FOTO com JAVASCRIPT
 Como gerar um QR CODE com JAVASCRIPT | Google Charts API
+
+Lading Page - JavaScript | HTML | CSS
+- FOOD PEAK: https://www.youtube.com/watch?v=G8rUCF3BY6s
+- STARBUCKS: https://www.youtube.com/watch?v=NERcQOcQwk4
+- IPHONE13: https://www.youtube.com/watch?v=ECtto0xi7aU
+- DRONE: https://www.youtube.com/watch?v=wzM1hIOkPhM
+- FOOD LANDING PAGE: https://www.youtube.com/watch?v=ddaN0hjr0BM
