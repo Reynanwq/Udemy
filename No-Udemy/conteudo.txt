@@ -47,7 +47,7 @@ https://www.youtube.com/playlist?list=PLBnXXDBNZQpJKH1Fx2EAbKbG9p_dV_pKW
 
 - 20. Curso grátis de Javascript | Eventos | onload ✅
 - 21. Curso grátis de Javascript | Eventos | Click    ✅
-- 22. Curso grátis de Javascript | Eventos | Hover
+- 22. Curso grátis de Javascript | Eventos | Hover  ✅
 - 23. Curso grátis de Javascript | Eventos | Change
 - 24. Curso grátis de Javascript | Eventos | Blur
 - 25. Curso grátis de Javascript | Eventos | Keyup
