@@ -2,7 +2,7 @@
 ## Tudo que eu produzir no Curso de JavaScript e TypeScript do básico ao avançado 2022
 ![udemylogo](https://user-images.githubusercontent.com/90296084/201919200-5917e66f-e248-43b1-9088-8f59a93ded95.jpeg)
 
-> Status: Developing
+> Status: Developing ⚠️
 
 <h2>PASTAS: </h2>
 <article>
@@ -13,6 +13,8 @@
 <li>Model</li>
 <li>Section 4 - Funcoes</li>
 </article>
+
+---
 
 <h2 align="center">🛠 Technologies Used:</h2>
 <table align="center">
@@ -26,9 +28,10 @@
   </tr>
 </table>
 
+---
 
 <h2 align="center"> 🤓 Contato</h2> 
-<h3 align="center">Reynanwq@gmail.com</h3>
+<p align="center">Reynanwq@gmail.com</p>
 
 ---
 
