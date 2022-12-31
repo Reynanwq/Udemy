@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Blur</title>
+</head>
+
+<body>
+    <h1>Reynan - BLUR</h1>
+    <input type="text" id="name">
+    <input type="text" id="sobrenome">
+    <script>
+        // Será executado toda vez que sair da caixxa de texto.
+        //com o Blur, pegar o valor de nome e por no sobrenome.
+        const nome = document.getElementById('name');
+        const sobreNome = document.getElementById('sobrenome');
+
+        nome.addEventListener("blur", function() {
+            //o que estṕa escrito em sobrenome recebe o que foi ddigitado "this.value"
+            sobreNome.value = this.value;
+        })
+    </script>
+</body>
+
+</html>
