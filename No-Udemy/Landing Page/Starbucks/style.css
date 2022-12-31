@@ -40,6 +40,7 @@ header .logo{
 
 /*GERAL*/
 header ul{
+    position: relative;
     display: flex;
 }
 
@@ -54,4 +55,31 @@ header ul li a{
     fonts-weight: 400;
     margin-left: 40px; /*espaçamemto entre as palavras*/
     text-decoration: none; /*retirar o subilinhado*/
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+/*PEGAR  O TITULO*/
+.content .textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.44em;
+    font-weight: 500;
+}
+
+/*CONFIGURAR A TAG SPAN*/
+.content .textBox h2 span{
+    color: #017143;
+    font-weight: 900;
 }
