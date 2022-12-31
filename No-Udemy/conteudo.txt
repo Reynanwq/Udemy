@@ -48,8 +48,8 @@ https://www.youtube.com/playlist?list=PLBnXXDBNZQpJKH1Fx2EAbKbG9p_dV_pKW
 - 20. Curso grátis de Javascript | Eventos | onload ✅
 - 21. Curso grátis de Javascript | Eventos | Click    ✅
 - 22. Curso grátis de Javascript | Eventos | Hover  ✅
-- 23. Curso grátis de Javascript | Eventos | Change
-- 24. Curso grátis de Javascript | Eventos | Blur
+- 23. Curso grátis de Javascript | Eventos | Change ✅
+- 24. Curso grátis de Javascript | Eventos | Blur ✅
 - 25. Curso grátis de Javascript | Eventos | Keyup
 - 26. Curso grátis de Javascript | Eventos | Keypress
 - 27. Curso grátis de Javascript | Eventos | Submit
@@ -75,8 +75,8 @@ https://www.youtube.com/playlist?list=PLGwqoftZstLZUQGt3GeLpI-QAZaT8ccVG
 Mini projetos javascript para iniciantes
 https://www.youtube.com/playlist?list=PLDgemkIT111AzoS1rB61sgMJbsEA4pyD2
 
-- Mini projetos javascript (Iniciantes) - 01 LÂMPADA
-- Solução desafio da lâmpada
+- Mini projetos javascript (Iniciantes) - 01 LÂMPADA ✅
+- Solução desafio da lâmpada  ✅
 - Mini projetos javascript (Iniciantes) - 02 Semáforo
 - Mini projetos javascript (Iniciantes) - 03 SLIDESHOW
 - Mini projetos javascript (iniciantes) - 04 DRUMKIT
