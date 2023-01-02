@@ -1,0 +1,10 @@
+INSTALAR O NPM
+
+(Cria packge.json)
+- npm init 
+(instala um pacote localmente que só poderá ser usado no projeto especifico em que o comando foi digitado)
+- npm install express
+Instalar o pacote localmente, logo, poderemos utiliza-lo em todo projeto
+
+
+Após o "npm-init" é criado um arquivo packge.json, contendo todas as informações

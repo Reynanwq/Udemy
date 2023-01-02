@@ -1,0 +1,19 @@
+{
+  "name": "course-content",
+  "version": "1.0.0",
+  "description": "Curso de NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reynanwq/Udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reynanwq/Udemy/issues"
+  },
+  "homepage": "https://github.com/Reynanwq/Udemy#readme"
+}
