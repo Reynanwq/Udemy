@@ -8,3 +8,10 @@ Instalar o pacote localmente, logo, poderemos utiliza-lo em todo projeto
 
 
 Após o "npm-init" é criado um arquivo packge.json, contendo todas as informações
+
+Para executar o node no terminal utilizamos: 
+"node "nome do arquivo js"
+
+ls: qual diretorio eu estou
+cd: entrar no diretorio
+ 
