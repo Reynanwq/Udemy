@@ -82,4 +82,31 @@ header ul li a{
 .content .textBox h2 span{
     color: #017143;
     font-weight: 900;
+    font-size: 1.2em;
+}
+
+
+.content .textBox p{
+    color: #333;
+}
+
+/*link do "lern more*/
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px; /*espaçamento entre as letras*/
+    text-decoration: none;
+    background: #017143;
+}
+
+.content .imgBox{
+    display: flex;
+    justify-content: flex-end;  
+    width: 600px;
+    margin-top: 70px;
+    padding-right: 50px;
 }
