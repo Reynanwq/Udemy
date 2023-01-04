@@ -25,3 +25,5 @@ Nodemon: biblioteca para evitar quee toda vez que que tivemos que executar o cod
 node_modules: tem todas as dependencias do nodemon, nunca subimos ela para o git
 
 package-lock.json: lista as versões dos nossos pacotes/modulos
+
+package.json -> "scripts"{ "start:dev": "local da pasta onde está o arquivo" }
