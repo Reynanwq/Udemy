@@ -18,4 +18,10 @@ const meuArquivo = require('./meu-arquivo.js');
 
 NPM - NODE PACKGE MANAGER: Permite que instale modulos de terceiros
 o arquivo "package.json" lista todos os modulos que foram instalados pelo NPM
-*/
+
+
+Nodemon: biblioteca para evitar quee toda vez que que tivemos que executar o codigo não ficar digitando "node nome-do-arquivo"
+
+node_modules: tem todas as dependencias do nodemon, nunca subimos ela para o git
+
+package-lock.json: lista as versões dos nossos pacotes/modulos

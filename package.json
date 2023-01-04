@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Reynanwq/Udemy/issues"
   },
-  "homepage": "https://github.com/Reynanwq/Udemy#readme"
+  "homepage": "https://github.com/Reynanwq/Udemy#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

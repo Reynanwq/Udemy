@@ -14,4 +14,6 @@ Para executar o node no terminal utilizamos:
 
 ls: qual diretorio eu estou
 cd: entrar no diretorio
- 
+
+- npm install -g nodemon --save-dev
+(instalar globalmente e cria uma página node_modules)
