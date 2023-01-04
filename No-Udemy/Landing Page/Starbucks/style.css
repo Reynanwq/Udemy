@@ -110,3 +110,48 @@ header ul li a{
     margin-top: 70px;
     padding-right: 50px;
 }
+
+.content .imgBox img{
+    max-width: 540px;
+}
+
+.thumb{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.thumb li img{
+    max-width: 90px;
+}
+
+.thumb li:hover{
+    transform: translateY(-15%);
+}
+
+.redeSociais{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.redeSociais li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
