@@ -9,3 +9,6 @@ console.log(path.dirname(__filename));
 
 //Pegar a extensão do arquivo
 console.log(path.extname(__filename));
+
+//Criar objeto path
+console.log(path.parse(__filename));
