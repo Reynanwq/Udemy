@@ -6,6 +6,9 @@ function criaCalculadora() {
         clearDisplay() {
             this.display.value = '';
         },
+        apagaUm() {
+            this.display.value = this.display.value.slice(0, -1); //slice: recebe a string e tira 1 elemento dessa string.
+        },
         inicia() {
             this.cliqueBotoes();
             this.clearDisplay();
@@ -18,6 +21,9 @@ function criaCalculadora() {
                 }
                 if (el.classList.contains('btn-clear')) {
                     this.clearDisplay();
+                }
+                if (el.classList.contains('btn-del')) {
+                    this.apagaUm();
                 }
             });
         },
