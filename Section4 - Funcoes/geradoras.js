@@ -1,0 +1,14 @@
+/* 
+Funções Geradoras: são funções que podem ser pausadas e executadas novamente ao serem chamadas.
+
+functio geradora(){
+    //'yeild' exerce uma função semelhante ao 'return'
+    yeild: 'valor 1';
+    yeild: 'valor 2';
+    yeild: 'valor 3';
+}
+
+geradora(); // exibe valor 1
+geradora(); // exibe valor 2
+geradora(); // exibe valor 3
+*/
