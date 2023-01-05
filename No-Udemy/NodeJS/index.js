@@ -6,6 +6,6 @@ como estamos exportando um ibjeto, a Person também se transforma em um objeto, 
 const { Person } = require("./person");
 const person = new Person('Reynan');
 console.log(person.sayMyName());
-
+require('./modules/fs');
 //Usado para executar em um arquivo
-require('./modules/path');
+//require('./modules/path');
