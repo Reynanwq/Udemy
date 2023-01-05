@@ -34,3 +34,14 @@ fs.writeFile(path.join(__dirname, '/teste', "test.txt"), "hello node!", (error) 
     }
     console.log('Arquivo criado com sucesso');
 })
+
+/*----------- ADICIONAR INFORMAÇÕES ARQUIVO --------- */
+
+//para adicionar informações em um arquivo já criando utilizamos o appendFile
+
+fs.appendFile(path.join(__dirname, '/teste', 'test.txt'), "hello world!", (error) => {
+    if (error) {
+        return ('ERROR: ', error);
+    }
+    console.log('Informação adicionada com sucesso ao arquivo .txt');
+})
