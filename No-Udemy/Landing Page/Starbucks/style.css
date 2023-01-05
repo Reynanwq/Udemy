@@ -154,6 +154,7 @@ header ul li a{
     display: inline-block;
     margin: 5px 0;
     transform: scale(0.6);
+    filter: invert(1);/*deixa a cor adaptavel em relação ao background*/
 }
 
 .circle{
