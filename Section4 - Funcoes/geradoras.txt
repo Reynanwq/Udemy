@@ -1,4 +1,4 @@
-/* 
+ 
 Funções Geradoras: são funções que podem ser pausadas e executadas novamente ao serem chamadas.
 
 functio geradora(){
@@ -11,4 +11,3 @@ functio geradora(){
 geradora(); // exibe valor 1
 geradora(); // exibe valor 2
 geradora(); // exibe valor 3
-*/
