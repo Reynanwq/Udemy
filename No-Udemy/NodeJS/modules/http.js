@@ -8,7 +8,21 @@ const server = http.createServer((req, res) => {
     if (req.url === '/home') {
         res.writeHead(200, { "Content-Type": "text/html" }); //dizer o tipo de conteudo que estamos ennviando
         //200 é "status code" e significa que a requisição foi ok
-        res.end("<h1>home page</h1>");
+        res.end("<h1>Ei Reynan, você criou o seu primeiro server, parabéns pelo seu trabalho, continue evoluindo</h1>");
+    }
+
+    //criar back-end para front-end consumir
+    if (res.url === '/home') {
+        const users = [{
+                    name: 'Reynan Paiva',
+                    email: 'Reynanwq@gmail.com',
+                },
+                {
+                    name: 'Kuroko',
+                    email: 'kuroko@getMaxListeners.com',
+                }
+            ]
+            //para mandar, temos que dizer o tipo dessa resposta
     }
 });
 
