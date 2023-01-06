@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Submit</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <input type="text" name="name" value="Reynan ">
+        <input type="email " name="email " value="Reynanwq@gmail.com ">
+        <button type="submit ">Enviar</button>
+    </form>
+    <script>
+        //toda vez que um formulário for enviado.
+        var form = document.querySelector("form ");
+        form.addEventListener("submit ", function(e) {
+            e.preventDefault();
+            var isvalid = true;
+
+            for (var i = 0; i < this.elements.length; i++) {
+                var item = this.elements[i];
+                if (item.type !== "submit ") {
+                    if (item.value == " ") { //caso a caixa seja vazia
+                        item.classList.add('error');
+                        isvalid = false; //caixa de texto é falsa
+                    } else {
+                        item.classList.remove('error');
+                    }
+                }
+
+            }
+            console.log(isvalid);
+        });
+    </script>
+</body>
+
+</html>
