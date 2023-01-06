@@ -33,7 +33,7 @@ body{
     tansition: a11 0.5s;
 }
 
-.navigation .logo{
+.navigation .logo{  
     color: var(--red);
     font-size: 1.7rem;
     font-weight: 600;
@@ -44,10 +44,10 @@ body{
     color: var(--black);
 }
 
-//POR UM AO LADO DO OUTRO
+/*POR UM AO LADO DO OUTRO*/
 .navigation ul{
     display: flex;
-    align-items: center;
+    align-items: center;  
     gap: 5rem;
 }
 
