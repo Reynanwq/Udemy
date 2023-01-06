@@ -17,3 +17,6 @@ cd: entrar no diretorio
 
 - npm install -g nodemon --save-dev
 (instalar globalmente e cria uma página node_modules)
+
+- npm install express
+para instalar o express

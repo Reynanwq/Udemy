@@ -4,7 +4,7 @@
     "description": "Curso de NodeJS",
     "main": "index.js",
     "scripts": {
-        "start:dev": "nodemon ./No-Udemy/NodeJS/index.js"
+        "start:dev": "nodemon index.js"
     },
     "repository": {
         "type": "git",
