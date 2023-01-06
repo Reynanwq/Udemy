@@ -12,19 +12,22 @@ const server = http.createServer((req, res) => {
     }
 
     //criar back-end para front-end consumir
-    if (res.url === '/home') {
+    if (req.url === '/users') {
         const users = [{
-                    name: 'Reynan Paiva',
-                    email: 'Reynanwq@gmail.com',
-                },
-                {
-                    name: 'Kuroko',
-                    email: 'kuroko@getMaxListeners.com',
-                }
-            ]
-            //para mandar, temos que dizer o tipo dessa resposta
+                name: 'Reynan Paiva',
+                email: 'Reynanwq@gmail.com',
+            },
+            {
+                name: 'Kuroko',
+                email: 'kuroko@getMaxListeners.com',
+            },
+        ];
+        //para mandar, temos que dizer o tipo dessa resposta
+        res.writeHead(200, { "Content-Type": "application/json" });
+        //a resposta deve ser enviada em forma de string
+        res.end(JSON.stringify(users));
     }
 });
 
 //PARA COLOCAR O SERVER ONLINE
-server.listen(port, () => console.log(`Rodando na porta ${port}`));
+server.listen(port, () => console.log(`O CÓódigo está Rodando na porta ${port}`));
