@@ -13,6 +13,7 @@
 <li>Model</li>
 <li>Funcoes</li>
 <li>Arrays (avançado)</li>
+<li>Objetos e Prototypes</li>
 </article>
 
 ---
