@@ -1,0 +1,7 @@
+Competindo com React, por este motivo o seu uso tem diminuido
+
+Biblioteca javascript que facilita manipullação de elementos da DOM, ou seja, é o javascript simplficado.
+
+criado em 2006
+
+faz um bom tabalho com o AJAX
