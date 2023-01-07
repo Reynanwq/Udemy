@@ -11,7 +11,8 @@
 <li>No-Udemy</li>
 <li>Code Forces</li>
 <li>Model</li>
-<li>Section 4 - Funcoes</li>
+<li>Funcoes</li>
+<li>Arrays (avançado)</li>
 </article>
 
 ---
@@ -25,6 +26,7 @@
     <td>NodeJS</td>
     <td>git</td>
     <td>TypeScript<td>
+    <td>Express</td>
   </tr>
 </table>
 
