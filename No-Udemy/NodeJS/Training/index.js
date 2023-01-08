@@ -1,1 +1,1 @@
-require('./modules/drx');
+require('./modules/ns');
