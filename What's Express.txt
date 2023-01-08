@@ -1,0 +1,31 @@
+O pacote express permite que eu crie rotas para a minha aplicação.
+
+Permite que eu acesse o meu site pelo navegador.
+
+- npm install express (instalar o express)
+"
+o arquivo "packge.json" é instalado uma linha de dependencia
+
+"dependencies": {
+  "express": "^4.17.1"
+}
+
+é instalado a pasta "node_modules"
+
+const express = require('express'); (aqui eu chamo o pacote que foi instalado)
+const app = express(); (aqui eu chamo a função que recebeu o pacote que foi instalado)
+
+o app.get recebe 2 parametros, o diretorio/rota que eu terei acesso e a função
+
+app.get('/', (req,res){
+  res.send("Hello Express")
+});
+
+const port = 3000;
+
+app.listen(port)
+
+para executar, basta digitar no terminal: "node index.js" (assumindo que o nome do arquivo seja index.js)
+
+para melhorar a experiencia e já saber quando estiver rodando, podemos botar:
+app.listen(port, () => console.log(`rodando o express na porta ${port}`);
