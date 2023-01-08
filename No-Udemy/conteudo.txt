@@ -7,7 +7,7 @@ https://youtu.be/i6Oi-YtXnAU
 - Mini-Projeto 5    ✅
 - Mini-Projeto 6    ✅
 - Mini-Projeto 7    ✅
-- Mini-Projeto 8
+- Mini-Projeto 8    ✅
 - Mini-Projeto 9
 - Mini-Projeto 10
 
@@ -27,7 +27,7 @@ https://www.youtube.com/playlist?list=PLwXQLZ3FdTVF9Y0RbsuN54XYP7D0dZIlR
 - Curso de Javascript - #11 DOM | createElement ✅
 - Curso de Javascript - #13 DOM | childNodes
 - Curso de Javascript - #14 DOM | nodeName, nodeType, nodeValue
-- Curso de Javascript - #15 DOM | parentNode
+- Curso de Javascript - #15 DOM | parentNode ✅
 - Curso de Javascript - #16 DOM | getAttribute, setAttribute e removeAttribute
 
 
@@ -50,10 +50,10 @@ https://www.youtube.com/playlist?list=PLBnXXDBNZQpJKH1Fx2EAbKbG9p_dV_pKW
 - 22. Curso grátis de Javascript | Eventos | Hover  ✅
 - 23. Curso grátis de Javascript | Eventos | Change ✅
 - 24. Curso grátis de Javascript | Eventos | Blur ✅
-- 25. Curso grátis de Javascript | Eventos | Keyup
-- 26. Curso grátis de Javascript | Eventos | Keypress
-- 27. Curso grátis de Javascript | Eventos | Submit
-- 28. Curso grátis de Javascript | O que é jQuery?
+- 25. Curso grátis de Javascript | Eventos | Keyup ✅
+- 26. Curso grátis de Javascript | Eventos | Keypress ✅
+- 27. Curso grátis de Javascript | Eventos | Submit ✅
+- 28. Curso grátis de Javascript | O que é jQuery? ✅
 
 
 Curso de JavaScript (Universidade XTI)
@@ -77,7 +77,7 @@ https://www.youtube.com/playlist?list=PLDgemkIT111AzoS1rB61sgMJbsEA4pyD2
 
 - Mini projetos javascript (Iniciantes) - 01 LÂMPADA ✅
 - Solução desafio da lâmpada  ✅
-- Mini projetos javascript (Iniciantes) - 02 Semáforo
+- Mini projetos javascript (Iniciantes) - 02 Semáforo ✅
 - Mini projetos javascript (Iniciantes) - 03 SLIDESHOW
 - Mini projetos javascript (iniciantes) - 04 DRUMKIT
 - Mini projetos javascript (iniciantes) - 05 COUNTDOWN
@@ -98,7 +98,7 @@ Como gerar um QR CODE com JAVASCRIPT | Google Charts API
 
 Lading Page - JavaScript | HTML | CSS
 - FOOD PEAK: https://www.youtube.com/watch?v=G8rUCF3BY6s
-- STARBUCKS: https://www.youtube.com/watch?v=91Q6RvKvd7o
+- STARBUCKS: https://www.youtube.com/watch?v=91Q6RvKvd7o ✅
 - IPHONE13: https://www.youtube.com/watch?v=ECtto0xi7aU
 - DRONE: https://www.youtube.com/watch?v=wzM1hIOkPhM
 - FOOD LANDING PAGE: https://www.youtube.com/watch?v=ddaN0hjr0BM
