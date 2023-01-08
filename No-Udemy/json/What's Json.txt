@@ -1,0 +1,9 @@
+Parece um array com objetos, mas na verdade é um texto no formato json
+
+Uma string formatada de um modo semelhante a objetos javascript
+
+Quando o browser troca informações com o servidor, essas informações precisam está no formato string, por este motivo o json é usados
+
+Convertemos em objetos javascript para poder utiliza-lo: 
+
+- const data = JSON.parse(request.responseText)
