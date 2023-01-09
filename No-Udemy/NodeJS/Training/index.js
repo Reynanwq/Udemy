@@ -1,1 +1,1 @@
-require('./modules/ns');
+require('./modules/kdf');
