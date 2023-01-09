@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #010101;
+}
+
+/*alterar tamanho da logo*/
+
+header .logo{
+    width: 51px;
+}
+
+body{
+    background: #FFF;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation ul li a{
+    color: #fff;
+    font-weight: 600;
+    
+}
