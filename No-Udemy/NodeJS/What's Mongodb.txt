@@ -1,0 +1,14 @@
+arquivo .env: serve para guardar arquivos que não queremos que suba para o github
+
+nele colocamos tudo que contém dados sensiveis, como senhar, por exemplo
+
+senha do server Nodejs: nodesjs1234
+
+MongoDB é um banco de daos orientado a documento, no formato JSON.
+
+é o mais usado no mercado (?)
+
+É possível armazenar registros sem se preocupar com a estrutura de dados.
+
+Um conjunto de collections forma o banco de dados
+
