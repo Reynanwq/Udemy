@@ -1,0 +1,5 @@
+arquivo .env: serve para guardar arquivos que não queremos que suba para o github
+
+nele colocamos tudo que contém dados sensiveis, como senhar, por exemplo
+
+senha do server Nodejs: nodesjs1234
