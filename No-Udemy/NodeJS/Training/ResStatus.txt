@@ -1,0 +1,17 @@
+Whats's res.status() 
+
+define o status http para a resposta
+
+O número passado é o código de resposta HTTP. As respostaa são agrupadas em 5 classes.
+
+indo de 100 até 599, divididas entre: 
+
+Resposta de informação: 100-199
+Resposta de sucesso: 200-299
+Redirecionamentos: 300-399
+Erro do cliente: 400-499
+Erros do Servidor: 500-599
+
+Referências:
+
+Códigos de status de respostas HTTP: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
