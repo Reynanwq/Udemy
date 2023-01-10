@@ -1,1 +1,9 @@
-defineProperty - defineProperties
+DefineProperty - DefineProperties
+
+
+Object.definePropety(this, 'estoque', {
+  enumerable: true, (mostra a chave)
+  value: estoque,
+  writalbe: false (controla se o valor pode ou não ser alterado)
+  configgurable: true; (é configurável ?)
+});
