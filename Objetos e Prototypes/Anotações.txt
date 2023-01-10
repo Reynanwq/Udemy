@@ -1,4 +1,4 @@
-DefineProperty - DefineProperties
+DefineProperty - DefineProperties:
 
 
 Object.definePropety(this, 'estoque', {
@@ -7,3 +7,10 @@ Object.definePropety(this, 'estoque', {
   writalbe: false (controla se o valor pode ou não ser alterado)
   configgurable: true; (é configurável ?)
 });
+
+
+Getters e Setters na função:
+
+get: basicamente pega o valor e exibe ele.
+set: seta o valor, realizar configurações no valor.
+
