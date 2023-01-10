@@ -14,3 +14,21 @@ Getters e Setters na função:
 get: basicamente pega o valor e exibe ele.
 set: seta o valor, realizar configurações no valor.
 
+  Prototypes: é a base do javasccript para trabalhar com programação oritentada a objetos em sí
+  
+  gerar novos objetos = INSTANCIAR
+  
+  JAVASCRIPT É BASEADO EM PROTOTYPOS PARA PASSAR PROPRIEDADES E MÉTODOS
+  
+  prototypo é o termo para se refirir ao que foi criado pela primeira vez e serve de molde para outros
+  
+  Object.prototype é o pai de todos os objects em javascript
+  
+  todo objeto possui um prototype
+  
+  _proto_
+  
+  
+  funcção construtora: facilita o uso de objetos que possuem a mesma propriedade
+  
+  
