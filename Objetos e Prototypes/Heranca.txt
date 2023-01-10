@@ -27,3 +27,8 @@ const camiseta = new Camiseta('Regata', 10.5,  'rosa');
 
 console.log(produto);
 console.log(camiseta);
+
+ 
+-----------------------  Definiçção ----------------------- 
+
+Descreve caracteriistica de um objeto que são passadas para outro.
