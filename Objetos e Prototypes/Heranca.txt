@@ -1,0 +1,29 @@
+Produto
+
+Camiseta, caneca, lapis vão herdar de produto.
+
+function Produto(nome, preco){
+  this.nome = nome;
+  this.preco = preco;
+}
+
+produto.prototype.aumento = function(quantia){
+  this.preco += quantia;
+}
+
+produto.prototype.desconto = function(quantia){
+  this.preco -= quantia;
+}
+
+function Casmiseta(nome, preco, cor){
+  produto.call(this, nome, preco);
+}
+
+Camiseta.prototype = Object.create(Produto.prototype);
+Camiseta.prototype.constructor = Camiseta;
+
+const produto = new Produt('Bakcetboll bluse', 122);
+const camiseta = new Camiseta('Regata', 10.5,  'rosa');
+
+console.log(produto);
+console.log(camiseta);
