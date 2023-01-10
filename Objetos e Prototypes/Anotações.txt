@@ -32,3 +32,15 @@ set: seta o valor, realizar configurações no valor.
   funcção construtora: facilita o uso de objetos que possuem a mesma propriedade
   
   
+  ------------------------------ DIA 10/01 ------------------------
+  
+  const objetoA = {
+  chave: 'A
+};
+
+é a mesma coisa que new object
+
+new Object -> Objecct.prototype
+_proto_: object.prototype
+
+
