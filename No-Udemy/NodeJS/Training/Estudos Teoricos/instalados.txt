@@ -1,0 +1,5 @@
+- npm install mongoose 
+(para instalar a biblioteca que vai ajudar no uso do mogodb)
+
+- npm install dotenv
+(ajuda no uso do arquivo ".env")
