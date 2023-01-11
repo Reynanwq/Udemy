@@ -1,0 +1,3 @@
+Costumamos chamar de programação assíncrona o ato de executar uma tarefa em "segundo plano".
+
+Uma função declarada como async significa que o valor de retorno da função será, "por baixo dos panos", uma Promise. 
