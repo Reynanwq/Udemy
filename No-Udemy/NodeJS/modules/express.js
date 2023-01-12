@@ -5,6 +5,14 @@ const UserModel = require("../src/model/user.model");
 const app = express();
 app.use(express.json()); //reconhecer que sempre usamos json nas nossas requisições 
 
+
+/* -------------- EXIBIR NO TERMINAL ------------ */
+app.use((req, res, next) => {
+    console.log(req.body);
+
+    next();
+});
+
 app.get('/users', async(req, res) => {
     /*res.contentType("application/html"); //para passar como html
     res.status(200).send("<h1>Hello Express</h1>");*/
