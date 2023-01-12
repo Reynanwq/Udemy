@@ -40,7 +40,18 @@ app.post('/users', async(req, res) => {
 });
 
 /*-------------------- ATUALIZAR UM USUÁRIO ---------------- */
+//PATCH: utilizado quando queremos atualizar o registro parcialmente
+//PUCH: mudar o registro por completo, praticamente criar do zzero
 
+app.patch("/users/:id", async(req, res) => {
+    try {
+        const id = req.params.id; //pesquisar o que isso faz
+        const user = await UserModel.findByIdAndUpdate(id, req.body, { new: true })
+        res.status(200).json(user);
+    } catch (error) {
+        res.status(500).send(erro.message);
+    }
+});
 
 /*-------------------- DELETAR UM USUÁRIO ---------------- */
 
