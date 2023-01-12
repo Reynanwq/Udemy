@@ -1,4 +1,5 @@
 const express = require('express');
+const userModel = require('../src/model/user.model');
 const UserModel = require("../src/model/user.model");
 
 const app = express();
@@ -54,7 +55,17 @@ app.patch("/users/:id", async(req, res) => {
 });
 
 /*-------------------- DELETAR UM USUÁRIO ---------------- */
+//utilizamos a requeste do tipo DELETE
 
+app.delete('/users/:id', async(req, res) => {
+    try {
+        const id = req.params.id;
+        const user = await userModel.findByIdAndRemove(id);
+        res.status(200).json(user);
+    } catch (error) {
+        res.status(500).send(error.message);
+    }
+})
 
 
 
