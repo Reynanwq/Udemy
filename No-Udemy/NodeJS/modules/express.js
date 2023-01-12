@@ -9,7 +9,8 @@ app.use(express.json()); //reconhecer que sempre usamos json nas nossas requisi�
 /* -------------- EXIBIR NO TERMINAL ------------ */
 app.use((req, res, next) => {
     console.log(req.body);
-
+    console.log(`Date: ${new Date()}`); //data de execução
+    console.log(`Request Type: ${req.method}`);
     next();
 });
 
