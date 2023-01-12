@@ -5,6 +5,8 @@ const UserModel = require("../src/model/user.model");
 const app = express();
 app.use(express.json()); //reconhecer que sempre usamos json nas nossas requisições 
 
+app.set("view engine", "ejs"); //exibir no formato ejs
+app.set("views", "src/views");
 
 /* -------------- EXIBIR NO TERMINAL ------------ */
 app.use((req, res, next) => {
@@ -12,6 +14,12 @@ app.use((req, res, next) => {
     console.log(`Date: ${new Date()}`); //data de execução
     console.log(`Request Type: ${req.method}`);
     next();
+});
+
+app.get("/views/users", async(req, res) => {
+    const users = await UserModel.find({});
+
+    res.render("index", { users });
 });
 
 app.get('/users', async(req, res) => {

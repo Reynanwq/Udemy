@@ -26,3 +26,6 @@ para instalar o express
 
 - npm install dotenv
 (ajuda no uso do arquivo ".env")
+
+instalar ejs
+- npm install ejs
