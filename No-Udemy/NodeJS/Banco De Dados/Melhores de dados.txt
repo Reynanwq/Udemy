@@ -1,0 +1,10 @@
+1: Oracle Database - banco relacional 
+2: Mysql - banco relacional
+3: Microsoft SQL Server - banco relacional
+4: PostgreSQL - banco relacional
+5: MongoDB - banco Orientado a documentos
+6: IBM DB2 - banco Relacional
+7: Redis - banco Chave-Valor
+8: ElasticSearch - banco Motor de Busca
+9: SQLite - banco Relacional
+10: Microsoft Access Cassandra - banco Relacional Coluna Ampla
