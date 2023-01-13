@@ -1,0 +1,22 @@
+O que é uma requisição http:
+
+é o que fazemos no servidor, seja pedir dados, mandar dados ou atualizar dados.
+
+cada requisição tem determinado elemento.
+
+cada requisição precisa de unm enderenço.
+
+GET
+POST 
+PUT
+DELETE
+
+header: cabeçario da nossa requisição, tipo de conteúdo
+body: vai guardar os dados da nossa requisição em JSON
+
+cada requisição tem um método HTTP, um protocolo de comunicação. Conjunto de regras usadas para estabelecer uma comunicação.
+
+GET: vai buscar dados no servidor e trazer
+POST: mandar dados especificos no meu servidor
+PUT: algo no servidor que queremos atualizar
+DELETE: remover algo no nosso servidor
