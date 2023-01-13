@@ -2,7 +2,7 @@ const mongoose = require('mongoose'); //fazendo requisição da biblioteca mongo
 
 const connectToDatabase = async() => {
     await mongoose.connect( //uso do await é similar ao try catch
-        `mongodb+srv://lck:<password>@lck.8g5ogdy.mongodb.net/?retryWrites=true&w=majority`,
+        `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@lck.8g5ogdy.mongodb.net/database?retryWrites=true&w=majority`,
         (error) => {
             if (error) {
                 return console.log("Ocorreu um erro ao tentar se connectar ao banco de dados");
