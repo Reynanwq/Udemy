@@ -105,3 +105,20 @@ Lading Page - JavaScript | HTML | CSS
 
 NODE JS
 - Curso de Node.js Para Completos Iniciantes: https://youtu.be/IOfDoyP1Aq0
+
+----------- Seção MongoDB -----------
+
+Crie uma API RESTful com Node.js e MongoDB | CRUD com Node, Express e Mongoose
+https://www.youtube.com/watch?v=K5QaTfE5ylk
+
+Autenticação com Node.js e MongoDB com JWT - Login e Registro com Node.js
+https://www.youtube.com/watch?v=qEBoZ8lJR3k
+
+Começando com MongoDB
+https://www.youtube.com/watch?v=jC7imm4ZLRY
+
+
+----------- Seção Postman -----------
+
+Curso testando APIs do zero com Postman
+https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs
