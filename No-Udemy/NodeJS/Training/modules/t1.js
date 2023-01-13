@@ -8,12 +8,12 @@ app.use(express.json()); //Facilitar o uso do json em nossas requisições
 /*PEGAR TODAS AS INFRMAÇÕES QUE FORAM PASSADAS */
 
 app.get("/t1", async(req, res) => {
-    t //ry {
-    const player = await PlayerModel.find({}); //pegar tudo
-    res.status(200).json(player);
-    /*} catch (error) {
+    try {
+        const player = await PlayerModel.find({}); //pegar tudo
+        res.status(200).json(player);
+    } catch (error) {
         res.status(500).send(error.message);
-    }*/
+    }
 });
 
 /* -------------- EXIBIR NO TERMINAL ------------ */
