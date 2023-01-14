@@ -1,0 +1,19 @@
+/*------- Método Estático -----------*/
+
+Referente a instancia em sí, tendo acessso aos dados da instancia.
+uso do this para instanceiar um obj
+ aumentarVolume(){
+    this.volume = 0;
+ }
+
+ const controleRemoto = new ControleRemoto('LG');
+ controleRemoto.aumentarVolume();
+
+
+/*------- Método Instância --------*/
+
+ Esses métodos não tem acesso aos dados da instancia
+
+    static trocaPilha(){
+    console.log("listaTrocada");
+}
