@@ -32,3 +32,16 @@ console.log(camiseta);
 -----------------------  Definiçção ----------------------- 
 
 Descreve caracteriistica de um objeto que são passadas para outro.
+
+-----------------------              -----------------------
+
+const smarthphone extends DispositivoEletronico {}
+
+Ou seja, minha variavel smarthphone vai herdar de DispositivoEletronico
+
+super();
+
+chamar o construtor da classe pai
+
+
+focar em não fazer hierarquia muito longas
