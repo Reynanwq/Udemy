@@ -1,0 +1,5 @@
+XMLhttprequest -> mais complicado e maior
+fetch -> mais simples e muito menos código
+axios -> extremamente fácil de ser executado e muito menos código
+
+OS tres recebem e enviam dados por baixo do pano, no javascript
