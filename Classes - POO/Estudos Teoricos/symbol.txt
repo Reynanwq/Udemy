@@ -1,0 +1,10 @@
+Representa um indentificador exclusivo
+
+Um valor desse tipo pode ser criado usando Symbol()
+
+let id = Símbolo();
+
+let id1 = Símbolo("id");
+let id2 = Símbolo("id");
+
+alerta( id1 == id2 ); // falso
