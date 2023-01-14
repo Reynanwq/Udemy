@@ -14,6 +14,8 @@
 <li>Funcoes</li>
 <li>Arrays (avançado)</li>
 <li>Objetos e Prototypes</li>
+<li>Classes - POO</li>
+<li>JavaScript Assincrono</li>
 </article>
 
 ---
