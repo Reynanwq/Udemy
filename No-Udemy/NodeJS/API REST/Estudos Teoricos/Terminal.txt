@@ -1,0 +1,5 @@
+- npm init -y
+cria o pacote "package.json"
+
+- npm install express nodemon mongoose
+instala as dependencias e as dependencias das nossas dependencias.
