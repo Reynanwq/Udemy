@@ -30,6 +30,11 @@
     <td>git</td>
     <td>TypeScript<td>
     <td>Express</td>
+    <td>Postman</td>
+    <td>MongoDB</td>
+    <td>Postman</td>
+    <td>EJS</td>
+    <td>JSON</td>
   </tr>
 </table>
 
