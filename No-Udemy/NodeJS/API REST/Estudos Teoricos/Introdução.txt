@@ -1,0 +1,30 @@
+API será baseada no framework Express para tratar as requisições e enviar respostas aos endpoints.
+
+MongoDB será o banco de dados utilizado, porém com o ODM Mongoose.
+
+Mongoose: facilita o trabalho na criação das API.
+
+Operações serão realizadas no MongoDB atlas.
+
+O pacote Nodemon vai ajudar a atualizar o código em tempo real da aplicação, para ter resultados mais rápidos.
+
+API será testada pelo software Postman.
+
+- Nodejs instalado na máquina
+- npm ajuda a instalar as dependencias
+- Editor utilizado: VS Code
+- Postman, para teste de API
+- Conta no MongoDb atlas OU MongoDB instalado na máquina
+
+
+
+---------------- OBJETIVO -------------------
+
+criar uma API no padrão RESTful, que terá um CRUD.
+
+Endpoints serão criados com os verbos HTTP, que correspondem a ação do mesmo.
+
+As respostas serão baseadas em JSON, retornando o status correto.
+
+Válidações simples, para simular no mundo real.
+
