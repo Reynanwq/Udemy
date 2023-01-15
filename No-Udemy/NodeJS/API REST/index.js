@@ -26,3 +26,6 @@ app.listen(port); //deu um pequeno erro com o listen, mas já foi resolvido
 
 //login: reynan
 //password: reynann1234
+
+
+// mongodb+srv://reynan:<password>@apirest.5yq1hjx.mongodb.net/?retryWrites=true&w=majority
