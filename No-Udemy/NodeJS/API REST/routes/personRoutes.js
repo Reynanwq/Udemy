@@ -7,7 +7,7 @@ const Person = require('../models/Person');
 //req.body: corpo da requisição, ou seja, onde vai chegar os dados.
 
 
-
+//CRIAÇÃO DE DADOS
 router.post('/', async(req, res) => {
     const { name, salary, approved } = req.body
 
@@ -28,6 +28,17 @@ router.post('/', async(req, res) => {
         res.status(500).json(message.error)
     }
 });
+
+
+//READ - LEITURA DE DADOS
+router.get('/', async(req, res) => {
+    try {
+        const people = await Person.find() // pega tudo que tem com o find.
+        res.status(200).json(people) //manda todos os dados que estão cadastrados como respostas
+    } catch (error) {
+        res.status(500).json(message.error)
+    }
+})
 
 /* -------------- FINAL ROTAS DA API ---------------*/
 
