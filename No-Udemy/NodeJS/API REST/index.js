@@ -22,4 +22,7 @@ app.get('/home', (req, res) => {
 
 /*Entregar uma porta*/
 
-app.listen(port);
+app.listen(port); //deu um pequeno erro com o listen, mas já foi resolvido
+
+//login: reynan
+//password: reynann1234
