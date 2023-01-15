@@ -8,13 +8,14 @@ const port = 3000;
 const mongoose = require('mongoose'); //importando o mongoose 
 const DB_USER = 'reynan';
 const DB_PASSWORD = encodeURIComponent('reynann1234');
-const Person = require('./models/Person')
+const Person = require('./models/Person');
+
+
+mongoose.set("strictQuery", false);
+
 
 app.use(express.json());
 /*Forma de ler JSON: para isso utilizamos midwalers*/
-
-
-/* -------------- ROTAS DA API  ---------------*/
 
 
 app.use(
@@ -22,6 +23,36 @@ app.use(
         extended: true,
     }),
 )
+
+
+/* -------------- INICIO ROTAS DA API ---------------*/
+//utilizamos o async para garantir que o tempo de resposta para o usuário seja respeitado
+//req.body: corpo da requisição, ou seja, onde vai chegar os dados.
+
+
+
+app.post('/person', async(req, res) => {
+    const { name, salary, approved } = req.body
+
+    if (!name) {
+        res.status(422).json({ error: 'O nome é obrigatório' })
+    }
+    const person = {
+        name,
+        salary,
+        approved
+    }
+
+    try {
+        //criado dados
+        await Person.create(person)
+        res.status(201).json({ message: 'Pessoa inserida no sistema comm sucesso!' })
+    } catch (error) {
+        res.status(500).json({ error: error })
+    }
+});
+
+/* -------------- FINAL ROTAS DA API ---------------*/
 
 
 /*Rota inical / endpoint */
