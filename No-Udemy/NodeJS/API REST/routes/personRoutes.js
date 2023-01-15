@@ -25,7 +25,7 @@ router.post('/', async(req, res) => {
         await Person.create(person)
         res.status(201).json({ message: 'Pessoa inserida no sistema comm sucesso!' })
     } catch (error) {
-        res.status(500).json(message.error)
+        res.status(500).json({ error: error })
     }
 });
 
@@ -36,7 +36,23 @@ router.get('/', async(req, res) => {
         const people = await Person.find() // pega tudo que tem com o find.
         res.status(200).json(people) //manda todos os dados que estão cadastrados como respostas
     } catch (error) {
-        res.status(500).json(message.error)
+        res.status(500).json({ error: error })
+    }
+})
+
+//EXTRAIR OS DADOS DA CONEXÃO/REQUISIÇÃO - PEGANDO USUARIIO PELO ID
+router.get('/:id', async(req, res) => {
+    const id = req.params.id; // req.params é o que vem pela URL
+    try {
+        const person = await Person.findOne({ _id: id }) //encontra apenas 1 resultado. Encontrar o user que o ID da rede seja igual o id da requisição
+            //O TIPO DE ERRO DEVE ESTÁ CLARO
+        if (!person) {
+            res.status(442).json({ message: `O usuário não foi encontrado` })
+            return
+        }
+        res.status(200).json(person);
+    } catch (error) {
+        res.status(500).json({ error: error })
     }
 })
 
