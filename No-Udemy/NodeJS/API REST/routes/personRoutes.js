@@ -1,6 +1,7 @@
 /*---------------- Arquivo onde minha rota será jogada ---------------- */
 
 const router = require('express').Router();
+const { Router } = require('express');
 const Person = require('../models/Person');
 /* -------------- INICIO ROTAS DA API ---------------*/
 //utilizamos o async para garantir que o tempo de resposta para o usuário seja respeitado
@@ -55,6 +56,29 @@ router.get('/:id', async(req, res) => {
         res.status(500).json({ error: error })
     }
 })
+
+
+
+/*----------- ATUALIZAÇÃO DE DADOS DO USUARIO ---------------*/
+//podemos utilizar patch ou put
+
+router.patch('/:id', async(req, res) => {
+    const id = req.params.id; // req.params é o que vem pela URL
+    const { name, salary, approved } = req.body
+
+    const person = {
+        name,
+        salary,
+        approved,
+    }
+
+    try {
+        const updatePerson = await Person.updateOne({ _id: id }, person);
+        res.status(200).json(person);
+    } catch (error) {
+        res.status(500).json({ error: error })
+    }
+});
 
 /* -------------- FINAL ROTAS DA API ---------------*/
 
