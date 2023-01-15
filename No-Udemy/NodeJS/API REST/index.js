@@ -4,7 +4,6 @@
 
 const express = require('express');
 const app = express();
-const port = 3000;
 const mongoose = require('mongoose'); //importando o mongoose 
 const DB_USER = 'reynan';
 const DB_PASSWORD = encodeURIComponent('reynann1234');
@@ -48,7 +47,7 @@ app.post('/person', async(req, res) => {
         await Person.create(person)
         res.status(201).json({ message: 'Pessoa inserida no sistema comm sucesso!' })
     } catch (error) {
-        res.status(500).json({ error: error })
+        res.status(500).json(message.error)
     }
 });
 
@@ -64,9 +63,9 @@ app.get('/home', (req, res) => {
 mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@apirest.5yq1hjx.mongodb.net/?retryWrites=true&w=majority`)
     .then(() => {
         console.log('Conectamos ao mongoDB')
-        app.listen(port);
+            //app.listen(port);
     })
     .catch((err) => console.log(err));
 /*Entregar uma porta*/
-
+const port = 3000;
 app.listen(port); //deu um pequeno erro com o listen, mas já foi resolvido
