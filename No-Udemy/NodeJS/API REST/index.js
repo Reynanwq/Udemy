@@ -1,12 +1,12 @@
 /*Configuração inicial
 
 */
-
+require('dotenv').config(); //para fazer a requisição do dotenv
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose'); //importando o mongoose 
-const DB_USER = 'reynan';
-const DB_PASSWORD = encodeURIComponent('reynann1234');
+const DB_USER = process.env.DB_USER;
+const DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD);
 const Person = require('./models/Person');
 
 
