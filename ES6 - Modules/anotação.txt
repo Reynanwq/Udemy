@@ -1,0 +1,14 @@
+Modulos são basicmente um esccopo de uma função.
+
+modulos são arquivos em javascript
+
+quando exportamos, estamos dando permissão para que outro arquivo importe ele
+
+export {nome};   (para exportar apenas o objeto nome)
+
+import { nome } from 'local'
+
+podemos criar exportando: export const pessoa = 'cas';
+
+
+import * = basicamente signifa exportar tudo
