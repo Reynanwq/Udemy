@@ -12,3 +12,11 @@ podemos criar exportando: export const pessoa = 'cas';
 
 
 import * = basicamente signifa exportar tudo
+
+import "qualquer nome" form "diretorio"
+
+
+Recursos modernos do javascript em computadores antigos
+
+
+//video aula 122 explica funções que ajudam na resolução de erros em navegadores mais antigos
