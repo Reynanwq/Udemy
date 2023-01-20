@@ -16,6 +16,9 @@
 <li>Objetos e Prototypes</li>
 <li>Classes - POO</li>
 <li>JavaScript Assincrono</li>
+<li>ES6 - Modules</li>
+
+<li>Node/Modulos</li>
 </article>
 
 ---
@@ -35,6 +38,7 @@
     <td>Postman</td>
     <td>EJS</td>
     <td>JSON</td>
+
   </tr>
 </table>
 
