@@ -1,0 +1,15 @@
+exports {}
+
+sempre está em forma de objeto vázio, quaando preenchemos ele, então será exportado
+
+module.exports.nome = nome; 
+entãoo eu estou exportando o nome
+
+console.log(module.exports); -> me diz o que é que eu estou exportando
+
+require: é o meu modo de importar tudo do outro arquivo
+
+const import = require('express').Router() // -> aqui eu estou apenas importando o router que está dentro do express, ou seja, algo especifico
+
+
+- npm i axios
