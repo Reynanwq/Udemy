@@ -1,0 +1,12 @@
+Não colocar "space" nem acento em nome de pasta do meu projeto para não ter problema no futuro.
+Não colocar nome de modulos conhecidos.
+Podemos criar os nossos próṕrrios scripts
+
+- npm update
+busca o que tá desatualizado e atualiza
+
+- npm ls --depth=0
+as dependencias que eu instalei
+
+- npm outdated
+o que está desatualizado
