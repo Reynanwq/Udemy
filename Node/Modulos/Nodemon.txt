@@ -1,0 +1,6 @@
+Facilita o uso da minha conexão com o website, pois ele atuzaliza sozinho, deixando o trabalho mais rápido
+
+- npm install nodemon
+
+no terminal, digitar: npx nodemon "nome do arqivo"
+
