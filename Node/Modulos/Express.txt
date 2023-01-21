@@ -1,0 +1,10 @@
+Micro framework que ajuda a trabalhar com o web
+
+- npm install express
+
+const express = require('express) -> aqui temos uma constante que está dentro do nosso modulo express
+const app = express(); -> agor ajá temos o express carregado
+
+O cliente faz uma requisição e o servidor deve entregar uma resposta
+
+PORTAS: referente a um process qie está sendo executado no meu servidor
