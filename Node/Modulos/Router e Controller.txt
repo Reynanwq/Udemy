@@ -1,0 +1,15 @@
+Router: separa as nossas rotas em um arquivo só de rotas.
+
+cria arquivo "routes.js"
+
+const express = require('expresss');
+const route = express.Router();
+const homeController = require('local do diretório');
+
+route.get('/', homeController.paginaInicial)
+
+Cria pasta "controllers".
+
+exports.paginaInicial = (req, res) => {
+  { code }
+});
