@@ -1,0 +1,18 @@
+Params: o que vem após a '/'. É especificado pelo desenvolvedor. O que vem na rota da  URL
+
+Query: algo relacionado a markketing, faz o uso de um caractere especifico, como "?". Vem na query string
+
+Body: o que vem na requisição do body
+
+/:"nome do meu parametro"
+que será referenciado no meu params
+
+
+/:"nome do meu parametro?"
+significa que o parametro pode ou não ser recebido.
+
+app.use(
+  express.urlencoded(
+    {extended: true }
+  )
+);
