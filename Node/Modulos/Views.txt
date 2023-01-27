@@ -1,0 +1,7 @@
+Dentro da pasta "src"
+ criar pasta "views"
+ -> cria arquivo "index.ejs" (para utilizar a engine que realizará a exibição via HTML)
+ 
+ -> Fazendo a chamada no meu server.js
+ app.set('views', path.resolve(_dirname, 'src', 'views'))
+ app.set('view engine', 'ejs');
