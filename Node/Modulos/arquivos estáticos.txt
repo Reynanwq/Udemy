@@ -1,0 +1,11 @@
+arquivo que será carregado no front-end]
+
+"public" será a página de conteúdo estático
+
+app.use(express.static(path.resolve(_dirname, 'public')));
+
+dentro da pasta públic, iremos ter os arquivos que serão o nosso front-end
+
+basta digitar o 
+
+localhost/'diretório que deseja exibir no front-end'
