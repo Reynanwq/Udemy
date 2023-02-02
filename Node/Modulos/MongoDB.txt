@@ -1,0 +1,13 @@
+-------------------- CRIANDO UM SERVIDOR ----------------
+
+entrar no site "MongoDB atlas"
+
+-> FREE -> create cluster
+
+-> cluster name -> mudar nome para algo realcionado ao meu banco de dados
+
+-> selecionar ip: 0.0.0.0/0
+
+-> Connect -> connect your aplication -> copiar URL de conexão
+
+.catch((e) => console.log(e));
