@@ -1,0 +1,36 @@
+salvar os dados do navegador no servidor.
+Se for aberto no modo anonimo, não será reconhecido.
+
+Flash Message: mensagens que são salvas na seção, mostrar uma mensagem para o cliente.
+
+PACOTES PARA INSTALAÇÃO
+- npm i express-session connect-mongo connect-flash
+
+const session = require('express-session');
+const mongoStore = require('connect-mongo')(session);
+const flash = require('connect-flash');
+
+PARA CONFUGIRAR A SEÇÃO
+const sessionOption = ({
+  secret: 'digite qualquer mensagem'
+  store: new MongoStore({ mongooseConnection: mongoose.connection }) 
+  resave: false,
+  saveUnitialize: false,
+  cokkie: {
+    maxAge: 100 * 60 * 60 * 24 * 7
+    httpOnly: true
+  }
+});
+
+app.use(session);
+app.use(flash());
+
+UTILIZANDO O FLASH NA PRATICA
+
+req.flash('info' 'Hello World');
+
+req.flash('error' 'shit');
+
+req.flash('sucess', 'aeeee');
+
+ESSAS MENSAGENS SERÃO EXIBIDAS APENAS UMA VEZ.
