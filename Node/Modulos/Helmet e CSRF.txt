@@ -1,0 +1,16 @@
+PRATICAS DE SEGURANÇA COM O EXPRESS
+
+- npm i helmet
+- npm i csurf
+
+const helmet = require('helmet');
+const csrf = require('csurf');
+app.use(csfr());
+
+APENAS COM ISSO, JÁ NOS PREVINIMOS DE ATAQUES
+
+exports.checkCsrfError = (err, req, res, next) => {
+  if(err && err.code = 'EBADCSRFTOKKEN'){
+    res.render('404')
+  }
+};
